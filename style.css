@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+@font-face {
+  font-family: 'VGA';
+  src:  url('VGA.woff2') format('woff2')
+}
+
+body {
+  background-color: black;
+  color: lightgray;
+  font-family: "VGA";
+  font-size: 125%;
+  white-space: pre-wrap;
+  text-transform: uppercase;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+  user-select: none;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "VGA";
+  color: white;
+  background-color: black;
+}
